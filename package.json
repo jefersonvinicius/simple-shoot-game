@@ -1,0 +1,14 @@
+{
+  "name": "shoot-game",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "concurrently \"npx http-server -c-1\" \"nodemon --ext js,ts,html --exec tsc --ignore dist\""
+  },
+  "devDependencies": {
+    "concurrently": "^7.2.2",
+    "nodemon": "^2.0.16",
+    "typescript": "^4.7.4"
+  }
+}
