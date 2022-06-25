@@ -27,3 +27,7 @@
 #screen {
   background-color: aliceblue;
 }
+
+#screen:hover {
+  cursor: none;
+}

@@ -22,11 +22,11 @@ document.addEventListener('DOMContentLoaded', () => {
     document.location.reload();
   });
 
-  document.addEventListener('mousemove', (event) => {
+  screen.addEventListener('mousemove', (event) => {
     pointer.updateFromMouseEvent(event);
   });
 
-  document.addEventListener('mouseup', (event) => {
+  screen.addEventListener('mouseup', (event) => {
     shoot.updateFromMouseEvent(event);
     if (shoot.checkHit(target)) {
       target.refresh();
